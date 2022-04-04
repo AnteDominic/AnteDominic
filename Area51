@@ -1,6 +1,8 @@
 if game.PlaceId == 2092166489 then
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("checkit | area 51", "BloodTheme")
+elseif game.PlaceId == 155382109 then
+player:Kick()
 
 local GunsTab = Window:NewTab("Guns")
 local GunsSection = GunsTab:NewSection("Get Guns")
